@@ -104,7 +104,7 @@ while(True):
         satisfy = 'U'
         unsatis += 1
     totCorrect, ansProv = print_out(satisfy,solVars,totCorrect,ansProv,outFile)
-outFile.write(inFile.name[:-4]+","+str(probNum)+","+str(satis)+","+str(unsatis)+","+str(ansProv)+","+str(totCorrect)+"\n")
+outFile.write(inFile.name[:-4]+",superComputers,"+str(probNum)+","+str(satis)+","+str(unsatis)+","+str(ansProv)+","+str(totCorrect)+"\n")
 
 outFile.close()
 inFile.close()
